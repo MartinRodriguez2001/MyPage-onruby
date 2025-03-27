@@ -8,6 +8,8 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ @import "bootsastrap";
  #navBar {
     display: flex;
     flex-direction: row;
