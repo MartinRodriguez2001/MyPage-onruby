@@ -189,7 +189,7 @@
     
     #interesContainer {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Se adapta dinámicamente */
         gap: 20px;
         width: 100%;
         max-width: 900px;
@@ -318,51 +318,4 @@
             height: 40px;
         }
     }
-    #contactForm {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        max-width: 400px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    #contactForm input,
-    #contactForm textarea {
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 6px;
-        font-size: 16px;
-        transition: border-color 0.3s ease;
-    }
-
-    #contactForm input:focus,
-    #contactForm textarea:focus {
-        outline: none;
-        border-color: #0077b6;
-    }
-
-    #contactForm button {
-        padding: 12px;
-        background-color: #0077b6;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-        font-size: 18px;
-        transition: background-color 0.3s ease;
-    }
-
-    #contactForm button:hover {
-        background-color: #005f8d;
-    }
-
-    #thankYouMessage {
-        text-align: center;
-        font-size: 18px;
-        color: #0077b6;
-        margin-top: 20px;
-    }
+    
